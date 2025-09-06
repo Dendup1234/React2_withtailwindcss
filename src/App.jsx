@@ -6,6 +6,7 @@ import Flex from "./Flex";
 import Usergreeting from "./Usergreeting";
 import List from "./List";
 import Button from "./Button";
+import Component from "./Component";
 function App() {
   const fruits = [
     { id: 1, name: "Apple", cal: 23 },
@@ -23,7 +24,7 @@ function App() {
     { id: 5, name: "Apple", cal: 70 },
     { id: 6, name: "Banana", cal: 24 },
   ];
-  return <Button></Button>;
+  return <Component></Component>;
 }
 
 export default App;
