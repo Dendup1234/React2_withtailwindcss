@@ -9,6 +9,7 @@ import Button from "./Button";
 import Component from "./Component";
 import Textfield from "./Textfield";
 import ColorPicker from "./ColorPicker";
+import Counter from "./Counter";
 function App() {
   const fruits = [
     { id: 1, name: "Apple", cal: 23 },
@@ -26,7 +27,7 @@ function App() {
     { id: 5, name: "Apple", cal: 70 },
     { id: 6, name: "Banana", cal: 24 },
   ];
-  return <ColorPicker></ColorPicker>;
+  return <Counter></Counter>;
 }
 
 export default App;
