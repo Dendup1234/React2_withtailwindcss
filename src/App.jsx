@@ -7,6 +7,8 @@ import Usergreeting from "./Usergreeting";
 import List from "./List";
 import Button from "./Button";
 import Component from "./Component";
+import Textfield from "./Textfield";
+import ColorPicker from "./ColorPicker";
 function App() {
   const fruits = [
     { id: 1, name: "Apple", cal: 23 },
@@ -24,7 +26,7 @@ function App() {
     { id: 5, name: "Apple", cal: 70 },
     { id: 6, name: "Banana", cal: 24 },
   ];
-  return <Component></Component>;
+  return <ColorPicker></ColorPicker>;
 }
 
 export default App;
