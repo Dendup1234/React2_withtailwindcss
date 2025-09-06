@@ -10,6 +10,7 @@ import Component from "./Component";
 import Textfield from "./Textfield";
 import ColorPicker from "./ColorPicker";
 import Counter from "./Counter";
+import Car from "./Car";
 function App() {
   const fruits = [
     { id: 1, name: "Apple", cal: 23 },
@@ -27,7 +28,7 @@ function App() {
     { id: 5, name: "Apple", cal: 70 },
     { id: 6, name: "Banana", cal: 24 },
   ];
-  return <Counter></Counter>;
+  return <Car></Car>;
 }
 
 export default App;
